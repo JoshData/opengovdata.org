@@ -1,22 +1,113 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700);
 
+body {
+	font-family: 'Open Sans', sans-serif;
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+a {
+	color: #00F;
+	text-decoration: underline;
+}
 
+	.navbar a {
+		text-decoration: none;
+	}
 
+h1, h2, h3 {
+	font-family: 'Open Sans', sans-serif;
+}
 
+h2 {
+	font-size: 23px;
+	font-weight: 800;
+	text-align: center;
+}
+	.panel3 h2, .panel4 h2 {
+		padding: 2em 0;
+	}
 
+h3 {
+	font-size: 16px;
+	font-weight: bold;
+}
 
+.jumbotron {
+	margin: 0;
+	padding-bottom: 25px;
+}
 
+.panel2 {
+	background-color: #DDD;
+	padding: 1em 0;
+}
+	.panel2 ul {
+		list-style-type: none;
+	}
+	.panel2 ul > li {
+		margin-bottom: .5em;
+	}
 
+	#reading_list {
+		margin-left: 2em;
+	}
+	#reading_list span {
+		float: left;
+		margin-left: -5em;
+		width: 5em;
+		text-align: right;
+		padding-right: .75em;
+		color: #555;
+	}
 
+.panel3 {
+	background-color: #EEE;
+}
 
+.panel4 {
+	background-color: #F4F4F4;
+}
 
+.principles_list {
+}
+	.principles_list > li {
+		font-weight: bold;
+		margin-top: 3em;
+		font-size: 115%;
+	}
+	.principles_list > li > div:first-child {
+		margin-bottom: .5em;
+	}
+	.principles_list > li > p {
+		font-weight: normal;
+		font-size: 14px;
+	}
 
+.about_the_principles {
+	 padding-bottom: 1em;
+	 border-bottom: 1px solid #999;
+	 margin-bottom: 1.5em;
+}
 
-
-
-
-
-
+.who-else, .comments {
+	margin: 1.5em 0 1.5em 2em;
+	border: 1px solid #999;
+	background-color: white;
+	color: #444;
+	padding: .5em;
+	font-size: 13px;
+	font-weight: normal;
+}
+	.who-else a, .comments a {
+		color: inherit;
+		text-decoration: underline;
+	}
+	.who-else > div:first-child {
+		font-weight: bold;
+		margin-bottom: .5em;
+	}
+	.who-else > div {
+		margin-bottom: .25em;
+	}
+	.comments p {
+		margin-top: .5em;
+	}
